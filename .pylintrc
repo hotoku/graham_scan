@@ -1,0 +1,7 @@
+# -*- yh/indent-before-save: nil -*-
+
+[MESSAGES CONTROL]
+disable=invalid-name,
+        missing-module-docstring,
+        missing-function-docstring,
+        missing-class-docstring
