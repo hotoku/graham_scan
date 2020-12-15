@@ -33,8 +33,8 @@ def process_code(cell):
 
 
 @click.command()
-def main():
-    fpath = "graham_scan.ipynb"
+@click.argument("fpath")
+def main(fpath):
     contents = json.load(open(fpath))
     cells = contents["cells"]
     ret = ""
